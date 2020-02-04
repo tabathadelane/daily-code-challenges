@@ -86,7 +86,7 @@ class LinkedList:
 	def printList(self): 
 		temp = self.head 
 		while(temp): 
-			print temp.data, 
+			print(temp.data), 
 			temp = temp.next
 
 # Driver program to test above function 
@@ -99,18 +99,18 @@ first.push(4)
 first.push(9) 
 first.push(5) 
 first.push(7) 
-print "First List is ", 
+print("First List is ") 
 first.printList() 
 
 # Create second list 
 second.push(4) 
 second.push(8) 
-print "\nSecond List is ", 
+print("\nSecond List is " )
 second.printList() 
 
 # Add the two lists and see result 
 res = LinkedList() 
 res.addTwoLists(first.head, second.head) 
-print "\nResultant list is ", 
+print("\nResultant list is " )
 res.printList() 
 
